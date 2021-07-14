@@ -1,1 +1,2 @@
-# FAQ
+# FAQ -
+I created a questions.json file with all the dummmy data and imported using an async/await function to replicate incoming data from another source. This async function then calls the main createFAQ function.  I iterated over the data with a forEach loop and created all the DOM elements on the page dynamically using createElement, classList.add, createTextNode and append.  I then added an event listener to each block of data/question and when the button is clicked, to toggle classes on and off.  I used a timeout function to add a better UI experience along with a css trasition on the toggles.  
