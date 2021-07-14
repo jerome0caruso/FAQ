@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    font-family: 'Rubik', sans-serif;
+    align-items: center;
+    background-color: rgb(120, 134, 170);
+}
+.container {
+    background-color: rgb(228, 227, 227);
+    width: 60%;
+    padding: 15px;
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+}
+.allQuestions {
+    width: 100%;
+}
+
+.boxContainer {
+    background-color: #fff;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    margin: 15px auto;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 550px;
+    transition: all 0.5s ease-in-out;
+}
+.boxContainerOpen {
+    background-color: #fff;
+    height: 115px;
+    width: 100%;
+    margin: 15px auto;
+    padding: 30px;
+    border-radius: 8px;
+    flex-direction: column;
+    transition: all 0.5s ease-in-out;
+}
+
+.questionBox {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.button {
+    border: 1px solid black;
+    width:30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.button:hover {
+    color: lightgray;
+    cursor: pointer;
+}
+h3 {
+    font-size: 2rem;
+    margin: 0 auto;
+}
+.anwser {
+    display: none;
+} 
+.alwaysAnwser {
+    margin-right: auto;
+    padding: 0;
+}
